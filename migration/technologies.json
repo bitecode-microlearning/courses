@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Python",
+    "slug": "python"
+  },
+  {
+    "id": 2,
+    "name": "TypeScript",
+    "slug": "typescript"
+  },
+  {
+    "id": 3,
+    "name": "Java",
+    "slug": "java"
+  },
+  {
+    "id": 4,
+    "name": "MySQL",
+    "slug": "mysql"
+  },
+  {
+    "id": 5,
+    "name": "SQL Server",
+    "slug": "mssql"
+  },
+  {
+    "id": 6,
+    "name": "MongoDB",
+    "slug": "mongodb"
+  },
+  {
+    "id": 7,
+    "name": "Oracle",
+    "slug": "oracle"
+  },
+  {
+    "id": 8,
+    "name": "PostgreSQL",
+    "slug": "postgresql"
+  },
+  {
+    "id": 9,
+    "name": "SQLite",
+    "slug": "sqlite"
+  },
+  {
+    "id": 10,
+    "name": "Redis",
+    "slug": "redis"
+  },
+  {
+    "id": 11,
+    "name": "MariaDB",
+    "slug": "mariadb"
+  },
+  {
+    "id": 12,
+    "name": "PL/SQL",
+    "slug": "plsql"
+  },
+  {
+    "id": 13,
+    "name": "Cassandra",
+    "slug": "cassandra"
+  },
+  {
+    "id": 14,
+    "name": "QuestDB",
+    "slug": "questdb"
+  },
+  {
+    "id": 15,
+    "name": "DuckDB",
+    "slug": "duckdb"
+  },
+  {
+    "id": 16,
+    "name": "SurrealDB",
+    "slug": "surrealdb"
+  },
+  {
+    "id": 17,
+    "name": "Firebird",
+    "slug": "firebird"
+  },
+  {
+    "id": 18,
+    "name": "ClickHouse",
+    "slug": "clickhouse"
+  }
+]

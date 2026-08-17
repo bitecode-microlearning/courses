@@ -1,0 +1,20 @@
+sourceid: cassandra-query-foundations
+name: Cassandra Query Foundations
+description: Build confidence reading, filtering, grouping, and joining small datasets.
+notificationtemplateid: 1
+targetaudience: SQL developers, BI analysts, report authors, and application developers beginning with the database
+learninggoal: Write clear foundational queries and verify results against a compact business dataset.
+avoid: Avoid DBA operations, backup and restore procedures, server installation, SQL tuning, infrastructure configuration, and large datasets.
+coursetype: classic
+ispublic: false
+shortermgoal: Complete six focused Cassandra practice lessons and produce one verified analytical result.
+longdescription: Build confidence reading, filtering, grouping, and joining small datasets. This course is designed for SQL developers and BI professionals working with small, understandable datasets. It covers query and transformation skills, not database administration. Backups, infrastructure operations, server tuning, capacity planning, and large-scale performance engineering are intentionally out of scope.
+tags:
+  - database
+  - sql-developer
+  - bi
+  - cassandra
+  - catalog.database-cassandra
+technologyid: 13
+imagekey: null
+level: beginner

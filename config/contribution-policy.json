@@ -1,0 +1,22 @@
+{
+  "repository": "bitecode-microlearning/courses",
+  "baseline": {
+    "mode": "configured_commit_sha",
+    "commitSha": null,
+    "includeBaselineCommit": false,
+    "description": "Set commitSha to the initial catalog import commit after it is pushed. That commit and all of its imported files create no contributors or contribution records. Only descendant commits are eligible."
+  },
+  "acceptedActivity": {
+    "mergedPullRequests": true,
+    "directCommitsAfterBaseline": true,
+    "reviews": true
+  },
+  "botUsernames": [
+    "dependabot",
+    "dependabot[bot]",
+    "github-actions",
+    "github-actions[bot]",
+    "renovate",
+    "renovate[bot]"
+  ]
+}

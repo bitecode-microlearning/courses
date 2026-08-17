@@ -1,0 +1,27 @@
+sourceid: mastering-logging
+name: Mastering logging
+description: Replace print debugging with useful, configurable application logs through short, practical, OneCompiler-compatible Python lessons.
+notificationtemplateid: 1
+targetaudience: Python developers who know basic syntax and want practical, production-focused fluency with everyday tools.
+learninggoal: Replace print debugging with useful, configurable application logs, choose appropriate patterns, and recognize important limitations.
+avoid: Avoid unnecessary complexity.
+coursetype: classic
+ispublic: true
+shortermgoal: Complete one useful logging workflow in a concise, runnable example today.
+longdescription: |
+  # Mastering logging
+  
+  Replace print debugging with useful, configurable application logs. Begin with a technique you can use immediately, then develop reliable daily workflows, error handling, testing judgment, and production-minded design.
+  
+  Every lesson is a focused 10–15 minute exercise with deterministic local data and a runnable main.py entrypoint. The course concludes with an integrated mini-project that uses only the packages available in OneCompiler.
+tags:
+  - python
+  - logging
+  - everyday-python-foundations
+  - microlearning
+  - onecompiler
+  - "catalog:mastering-python-tools"
+  - "metadata:{\"slug\":\"mastering-logging\",\"durationWeeks\":2,\"estimatedLessonCount\":6,\"stage\":\"Everyday Python Foundations\",\"stageOrder\":1,\"dominantColor\":\"blue\",\"imageAlt\":\"Developer-focused illustration representing logging in the Mastering Python Tools collection.\"}"
+technologyid: 1
+imagekey: courses/12/00000000-0000-4000-8000-000000000004.png
+level: beginner

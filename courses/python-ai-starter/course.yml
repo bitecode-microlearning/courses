@@ -1,0 +1,18 @@
+sourceid: python-ai-starter
+name: Python & AI Starter
+description: A beginner-friendly Python course where learners build small AI-powered tools for everyday office admin tasks using scikit-learn. Each lesson solves a practical problem such as categorizing text, detecting duplicates, finding unusual values, predicting simple trends, and building a smart spreadsheet assistant.
+notificationtemplateid: 1
+targetaudience: Beginner learners who want to learn Python through practical, useful mini-projects. Ideal for office workers, analysts, admins, support staff, junior developers, and anyone who wants to automate small everyday tasks without deep math or prior machine learning experience.
+learninggoal: Learn Python basics by building practical AI mini-tools with scikit-learn, including classification, similarity matching, anomaly detection, simple prediction, clustering, and a final smart spreadsheet assistant.
+avoid: "\"Avoid heavy math, deep machine learning theory, advanced Python patterns, complex setup, external APIs, paid services, large datasets, image processing, web development, deployment, and examples that cannot run in a simple browser-based Python environment."
+coursetype: classic
+ispublic: false
+shortermgoal: Learn Python basics by building practical AI mini-tools with scikit-learn, including classification, similarity matching, anomaly detection, simple prediction, clustering, and a final smart spreadsheet assistant.
+longdescription: A beginner-friendly Python course where learners build small AI-powered tools for everyday office admin tasks using scikit-learn. Each lesson solves a practical problem such as categorizing text, detecting duplicates, finding unusual values, predicting simple trends, and building a smart spreadsheet assistant.
+tags:
+  - python
+  - pandas
+  - data analysis
+technologyid: 1
+imagekey: null
+level: beginner

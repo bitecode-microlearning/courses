@@ -1,0 +1,12 @@
+[
+  {"id":"first-contribution","name":"First Contribution","category":"contribution","metric":"contributions","minimum":1},
+  {"id":"lesson-builder","name":"Lesson Builder","category":"contribution","metric":"lesson_created","minimum":1},
+  {"id":"explainer","name":"Explainer","category":"contribution","metric":"explanation","minimum":5},
+  {"id":"bug-hunter","name":"Bug Hunter","category":"contribution","metric":"bug_fix","minimum":5},
+  {"id":"exercise-creator","name":"Exercise Creator","category":"contribution","metric":"exercise","minimum":5},
+  {"id":"translator","name":"Translator","category":"contribution","metric":"translation","minimum":5},
+  {"id":"someone-learned","name":"Someone Learned From This","category":"impact","metric":"learners_helped","minimum":1},
+  {"id":"100-learners","name":"100 Learners Helped","category":"impact","metric":"learners_helped","minimum":100},
+  {"id":"1000-learners","name":"1,000 Learners Helped","category":"impact","metric":"learners_helped","minimum":1000},
+  {"id":"10000-learners","name":"10,000 Learners Helped","category":"impact","metric":"learners_helped","minimum":10000}
+]

@@ -1,0 +1,51 @@
+# Stable public identity. Lowercase letters, numbers, and hyphens only.
+# Keep this unchanged after the course is first synchronized.
+sourceid: example-practical-api-course
+
+# Short display name and catalog summary.
+name: Practical API Fundamentals
+description: Learn how web APIs work by reading and building focused HTTP examples.
+
+# Existing BiteCode email template ID. Use null when a maintainer has not assigned one.
+# A specified ID must already exist in BiteCode's notificationtemplate table.
+notificationtemplateid: null
+
+# Who the course serves and what they will be able to do.
+targetaudience: Beginner developers who know basic programming but have not built a web API.
+learninggoal: Understand HTTP requests and responses and build a small, well-structured API.
+
+# Boundaries that keep generated lessons focused and appropriate for this level.
+avoid: Avoid production infrastructure, advanced distributed systems, and framework internals.
+
+# Keep this compatible with the existing BiteCode course categories.
+coursetype: classic
+
+# Controls catalog visibility after synchronization.
+ispublic: false
+
+# This spelling intentionally matches the existing database column.
+shortermgoal: Read an HTTP exchange and implement one API endpoint.
+
+# Rich catalog description. Markdown is allowed inside this YAML block.
+longdescription: |
+  Build a practical mental model of HTTP and web APIs through short lessons.
+
+  You will inspect requests, choose status codes, design JSON responses, and
+  finish by implementing a small endpoint.
+
+# Natural YAML array; BiteCode serializes it for the existing database column.
+tags:
+  - api
+  - http
+  - backend
+  - beginner
+
+# Existing technologies.id value. Check migration/technologies.json.
+# Use null only when the course is intentionally technology-neutral.
+technologyid: null
+
+# Existing R2 image key. Use null until artwork is uploaded by a maintainer.
+imagekey: null
+
+# Allowed values: beginner, intermediate, advanced.
+level: beginner

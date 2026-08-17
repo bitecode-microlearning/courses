@@ -1,0 +1,27 @@
+sourceid: learn-python-pandas
+name: Learn Python Pandas
+description: Learn to clean, transform, combine, analyze, and visualize real datasets with Python Pandas through concise multi-file exercises.
+notificationtemplateid: 1
+targetaudience: Python learners, analysts, and aspiring data professionals who know basic Python syntax and want practical, job-relevant Pandas skills from beginner through advanced workflows.
+learninggoal: Build an end-to-end Pandas workflow: load external data, inspect and clean it, transform and combine tables, analyze patterns, optimize larger datasets, and communicate reliable results.
+avoid: Avoid unnecessary complexity.
+coursetype: classic
+ispublic: true
+shortermgoal: Complete one focused Pandas transformation using a short main.py and a separate data.csv fixture.
+longdescription: |
+  Turn raw data into useful answers with Python and Pandas. This course begins with Series, DataFrames, file loading, inspection, selection, filtering, sorting, and everyday cleanup. It then moves through missing values, string operations, GroupBy, pivoting, merging, reshaping, dates, time series, plotting, statistics, and exporting results.
+  
+  Advanced lessons build confidence with MultiIndex, custom aggregations, categorical data, memory optimization, vectorization, larger datasets, complex joins, window calculations, financial data, and NumPy integration. Every lesson connects an idea to a small runnable analysis instead of treating Pandas as a list of methods to memorize.
+  
+  Every CodePractice example uses multiple files. Python logic stays in a short main.py, while sample records live in a separate data.csv. That structure mirrors real analysis work, makes the code easier to review, and lets you experiment with the data independently.
+tags:
+  - python
+  - pandas
+  - data analysis
+  - data cleaning
+  - dataframes
+  - csv
+  - time series
+technologyid: 1
+imagekey: courses/2/6b1c2f19-4fe2-450a-a54c-f41bc32e17d9.png
+level: beginner

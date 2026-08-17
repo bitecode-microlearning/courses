@@ -1,0 +1,27 @@
+sourceid: mastering-collections
+name: Mastering collections
+description: Use specialized containers to simplify everyday data logic through short, practical, OneCompiler-compatible Python lessons.
+notificationtemplateid: 1
+targetaudience: Python developers who know basic syntax and want practical, production-focused fluency with everyday tools.
+learninggoal: Use specialized containers to simplify everyday data logic, choose appropriate patterns, and recognize important limitations.
+avoid: Avoid unnecessary complexity.
+coursetype: classic
+ispublic: true
+shortermgoal: Complete one useful collections workflow in a concise, runnable example today.
+longdescription: |
+  # Mastering collections
+  
+  Use specialized containers to simplify everyday data logic. Begin with a technique you can use immediately, then develop reliable daily workflows, error handling, testing judgment, and production-minded design.
+  
+  Every lesson is a focused 10–15 minute exercise with deterministic local data and a runnable main.py entrypoint. The course concludes with an integrated mini-project that uses only the packages available in OneCompiler.
+tags:
+  - python
+  - collections
+  - everyday-python-foundations
+  - microlearning
+  - onecompiler
+  - "catalog:mastering-python-tools"
+  - "metadata:{\"slug\":\"mastering-collections\",\"durationWeeks\":2,\"estimatedLessonCount\":6,\"stage\":\"Everyday Python Foundations\",\"stageOrder\":1,\"dominantColor\":\"blue\",\"imageAlt\":\"Developer-focused illustration representing collections in the Mastering Python Tools collection.\"}"
+technologyid: 1
+imagekey: courses/15/00000000-0000-4000-8000-000000000007.png
+level: beginner

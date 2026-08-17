@@ -1,0 +1,27 @@
+sourceid: mastering-matplotlib
+name: Mastering Matplotlib
+description: Turn data into clear, reproducible, headless reporting graphics through short, practical, OneCompiler-compatible Python lessons.
+notificationtemplateid: 1
+targetaudience: Python developers who know basic syntax and want practical, production-focused fluency with everyday tools.
+learninggoal: Turn data into clear, reproducible, headless reporting graphics, choose appropriate patterns, and recognize important limitations.
+avoid: Avoid unnecessary complexity.
+coursetype: classic
+ispublic: true
+shortermgoal: Complete one useful Matplotlib workflow in a concise, runnable example today.
+longdescription: |
+  # Mastering Matplotlib
+  
+  Turn data into clear, reproducible, headless reporting graphics. Begin with a technique you can use immediately, then develop reliable daily workflows, error handling, testing judgment, and production-minded design.
+  
+  Every lesson is a focused 10–15 minute exercise with deterministic local data and a runnable main.py entrypoint. The course concludes with an integrated mini-project that uses only the packages available in OneCompiler.
+tags:
+  - python
+  - matplotlib
+  - data-analysis-and-visualization
+  - microlearning
+  - onecompiler
+  - "catalog:mastering-python-tools"
+  - "metadata:{\"slug\":\"mastering-matplotlib\",\"durationWeeks\":3,\"estimatedLessonCount\":9,\"stage\":\"Data Analysis and Visualization\",\"stageOrder\":3,\"dominantColor\":\"green\",\"imageAlt\":\"Developer-focused illustration representing Matplotlib in the Mastering Python Tools collection.\"}"
+technologyid: 1
+imagekey: courses/25/00000000-0000-4000-8000-000000000011.png
+level: beginner

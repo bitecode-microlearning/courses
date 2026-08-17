@@ -1,0 +1,21 @@
+sourceid: redis-cache-backed-application-patterns
+name: Redis Cache-Backed Application Patterns
+description: Build responsive application paths with cache-aside reads, deliberate key design, freshness controls, hot-path protection, and ephemeral coordination.
+notificationtemplateid: 1
+targetaudience: Backend developers and architects who understand Redis fundamentals and need reusable cache-backed application patterns
+learninggoal: Design and verify cache-backed service patterns that balance latency, freshness, correctness, and implementation speed.
+avoid: Avoid treating cache hits as guaranteed, using Redis as an unexplained system of record, teaching vendor-only modules, or drifting into cluster administration, backups, server tuning, and infrastructure provisioning.
+coursetype: classic
+ispublic: true
+shortermgoal: Complete six architecture-focused lessons and assemble one coherent cache-backed service flow.
+longdescription: Move from individual Redis commands to reusable application patterns. Design cache-aside reads, namespaced keys and value shapes, TTL and refresh rules, request-coalescing guards, ephemeral workflow state, and an end-to-end cache-backed service slice. Every lesson keeps the durable source of truth and failure behavior visible so speed does not come at the cost of correctness.
+tags:
+  - redis
+  - architecture
+  - backend
+  - caching
+  - distributed-systems
+  - catalog.database-redis
+technologyid: 10
+imagekey: null
+level: intermediate

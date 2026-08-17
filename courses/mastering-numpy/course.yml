@@ -1,0 +1,27 @@
+sourceid: mastering-numpy
+name: Mastering NumPy
+description: Use arrays and vectorization for fast, reliable numerical work through short, practical, OneCompiler-compatible Python lessons.
+notificationtemplateid: 1
+targetaudience: Python developers who know basic syntax and want practical, production-focused fluency with everyday tools.
+learninggoal: Use arrays and vectorization for fast, reliable numerical work, choose appropriate patterns, and recognize important limitations.
+avoid: Avoid unnecessary complexity.
+coursetype: classic
+ispublic: true
+shortermgoal: Complete one useful NumPy workflow in a concise, runnable example today.
+longdescription: |
+  # Mastering NumPy
+  
+  Use arrays and vectorization for fast, reliable numerical work. Begin with a technique you can use immediately, then develop reliable daily workflows, error handling, testing judgment, and production-minded design.
+  
+  Every lesson is a focused 10–15 minute exercise with deterministic local data and a runnable main.py entrypoint. The course concludes with an integrated mini-project that uses only the packages available in OneCompiler.
+tags:
+  - python
+  - numpy
+  - scientific-computing
+  - microlearning
+  - onecompiler
+  - "catalog:mastering-python-tools"
+  - "metadata:{\"slug\":\"mastering-numpy\",\"durationWeeks\":4,\"estimatedLessonCount\":12,\"stage\":\"Scientific Computing\",\"stageOrder\":4,\"dominantColor\":\"orange\",\"imageAlt\":\"Developer-focused illustration representing NumPy in the Mastering Python Tools collection.\"}"
+technologyid: 1
+imagekey: courses/26/00000000-0000-4000-8000-000000000012.png
+level: intermediate

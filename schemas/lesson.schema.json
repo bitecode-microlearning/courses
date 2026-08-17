@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://courses.bitecode.co/schemas/lesson.schema.json",
+  "type": "object", "additionalProperties": false,
+  "required": ["sourceid", "lessonname", "position", "level", "goal", "contentdescription", "codedescription", "concepts", "avoid"],
+  "properties": {
+    "sourceid": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "lessonname": { "type": "string", "minLength": 1 }, "position": { "type": "integer", "minimum": 1 },
+    "level": { "enum": ["beginner", "intermediate", "advanced"] }, "goal": { "type": "string", "minLength": 1 },
+    "contentdescription": { "type": "string", "minLength": 1 }, "codedescription": { "type": "string", "minLength": 1 },
+    "concepts": { "type": "array", "items": { "type": "string", "minLength": 1 } }, "avoid": { "type": "string", "minLength": 1 }
+  }
+}

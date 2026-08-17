@@ -1,0 +1,21 @@
+sourceid: redis-architecture-for-resilient-systems
+name: Redis Architecture for Resilient Systems
+description: Design production-minded Redis-backed systems with explicit consistency, invalidation, idempotency, traffic protection, recovery, and degradation strategies.
+notificationtemplateid: 1
+targetaudience: Solution architects, senior backend developers, and technical leads designing high-throughput or latency-sensitive services
+learninggoal: Make and communicate defensible Redis architecture decisions across correctness, latency, failure modes, load protection, and recovery.
+avoid: Avoid universal architecture claims, unsafe lock guarantees, destructive production examples, vendor-only modules, or detailed cluster installation, backup, and infrastructure procedures.
+coursetype: classic
+ispublic: true
+shortermgoal: Complete six advanced lessons and produce one verified architecture blueprint for a fast, resilient Redis-backed service.
+longdescription: Treat Redis as one component in a larger production system. Define the durable source of truth and consistency boundaries, design invalidation and versioning, enforce idempotency, protect dependencies with rate limits and backpressure, detect stale state, warm caches safely, and plan graceful degradation. Finish with an architecture capstone that makes latency goals, ownership, failure modes, and recovery behavior explicit.
+tags:
+  - redis
+  - architecture
+  - backend
+  - caching
+  - distributed-systems
+  - catalog.database-redis
+technologyid: 10
+imagekey: null
+level: advanced

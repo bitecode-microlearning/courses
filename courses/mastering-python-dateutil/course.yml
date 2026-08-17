@@ -1,0 +1,27 @@
+sourceid: mastering-python-dateutil
+name: Mastering python-dateutil
+description: Parse flexible timestamps and express calendar-aware recurrence through short, practical, OneCompiler-compatible Python lessons.
+notificationtemplateid: 1
+targetaudience: Python developers who know basic syntax and want practical, production-focused fluency with everyday tools.
+learninggoal: Parse flexible timestamps and express calendar-aware recurrence, choose appropriate patterns, and recognize important limitations.
+avoid: Avoid unnecessary complexity.
+coursetype: classic
+ispublic: true
+shortermgoal: Complete one useful python-dateutil workflow in a concise, runnable example today.
+longdescription: |
+  # Mastering python-dateutil
+  
+  Parse flexible timestamps and express calendar-aware recurrence. Begin with a technique you can use immediately, then develop reliable daily workflows, error handling, testing judgment, and production-minded design.
+  
+  Every lesson is a focused 10–15 minute exercise with deterministic local data and a runnable main.py entrypoint. The course concludes with an integrated mini-project that uses only the packages available in OneCompiler.
+tags:
+  - python
+  - python-dateutil
+  - files-data-and-automation
+  - microlearning
+  - onecompiler
+  - "catalog:mastering-python-tools"
+  - "metadata:{\"slug\":\"mastering-python-dateutil\",\"durationWeeks\":1,\"estimatedLessonCount\":4,\"stage\":\"Files, Data, and Automation\",\"stageOrder\":2,\"dominantColor\":\"green\",\"imageAlt\":\"Developer-focused illustration representing python-dateutil in the Mastering Python Tools collection.\"}"
+technologyid: 1
+imagekey: courses/22/00000000-0000-4000-8000-00000000000e.png
+level: beginner

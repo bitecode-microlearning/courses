@@ -1,0 +1,76 @@
+sourceid: switch-to-typescript
+name: Switch to TypeScript
+description: Learn to design, validate, and ship strongly typed TypeScript systems using strict configuration, advanced types, safe boundaries, and scalable architecture
+notificationtemplateid: 1
+targetaudience: This course is designed for developers who already understand programming fundamentals and have practical experience with at least one modern language. It is especially useful for JavaScript, backend, full-stack, and library developers who want to adopt TypeScript without starting from basic programming concepts. Learners should be comfortable with functions, objects, modules, asynchronous code, and common software design principles.
+learninggoal: Develop the ability to use TypeScript as an engineering tool for designing reliable, maintainable software rather than as a thin layer of annotations over JavaScript. By the end of the course, learners should be able to model complex states, preserve type relationships through generics, create reusable type transformations, define safe module and API boundaries, validate untrusted runtime data, and make informed architectural decisions in strict TypeScript projects.
+avoid: Avoid unnecessary complexity.
+coursetype: classic
+ispublic: true
+shortermgoal: Immediately after completing the course, learners should be able to configure a strict TypeScript project, refactor existing JavaScript safely, design typed asynchronous APIs, validate external data, create reusable generic abstractions, and build a production-ready typed client with runtime and compile-time tests
+longdescription: |
+  # Switch to TypeScript
+  
+  ## Build practical skills, one focused lesson at a time
+  
+  TypeScript becomes truly valuable when it is used for more than adding annotations to JavaScript. **Switch to TypeScript** is designed for developers who already know how to program and want to understand how TypeScript changes the way reliable software is designed, reviewed, and maintained.
+  
+  This course takes a technical, production-focused approach. You will learn how the compiler reasons about your code, how strict settings expose hidden assumptions, and how the type system can represent relationships between data, functions, modules, and application states. Instead of treating TypeScript as syntax to memorize, you will use it as an engineering tool for making invalid states harder to represent and unsafe boundaries easier to identify.
+  
+  The focused lessons build toward realistic development work: strict projects, reusable APIs, validated external data, typed asynchronous workflows, JavaScript migration, and maintainable public interfaces.
+  
+  ## What you will learn 🧠
+  
+  You will develop a practical understanding of the TypeScript features that matter most in real codebases:
+  
+  - Configure strict TypeScript projects and understand what compiler options change.
+  - Use inference, literal types, unions, narrowing, `unknown`, and `never` to model application states precisely.
+  - Design clear function and object contracts with overloads, callbacks, optional properties, readonly data, and `satisfies`.
+  - Preserve relationships between inputs and outputs with generics, constraints, `keyof`, and indexed access types.
+  - Build useful type transformations with mapped types, conditional types, `infer`, and template literal types.
+  - Structure projects with ES modules, package boundaries, project references, and declaration output.
+  - Handle asynchronous workflows, typed failures, cancellation, concurrency, and partial results safely.
+  - Validate untrusted runtime data before converting it into trusted domain types.
+  
+  ## How the course works ⚙️
+  
+  The course begins by establishing the correct mental model: TypeScript performs static analysis, but the generated program still runs as JavaScript. You will inspect emitted code, configure a strict compiler, and see how settings such as `strictNullChecks`, `noUncheckedIndexedAccess`, and `exactOptionalPropertyTypes` affect development.
+  
+  From there, the focus moves to precise modelling. You will use control-flow analysis, discriminated unions, exhaustive checks, and function contracts to express valid program states. These techniques replace broad, assumption-heavy code with APIs that communicate intent through their types.
+  
+  The next stage introduces reusable abstractions. Generics are explored as a way to preserve meaningful relationships rather than simply replace concrete types with placeholders. You will then use mapped and conditional types to derive new types from existing domain models while learning when advanced type-level programming becomes too complex to maintain.
+  
+  You will also examine TypeScript’s structural type system, class features, interfaces, private fields, and branded types. This creates a foundation for modelling domain concepts without assuming that compile-time compatibility creates runtime guarantees.
+  
+  The course then expands into project and system boundaries. You will work with modern ES modules, package exports, type-only imports, declaration files, and third-party type definitions. You will learn why a path alias understood by the compiler may still fail at runtime, and how to design a package surface without exposing internal implementation details.
+  
+  Runtime safety is treated as a core part of TypeScript development. API responses, environment variables, stored JSON, and message payloads must be considered untrusted, regardless of the static types used inside the application. You will build validators and parsers that convert `unknown` data into trusted domain objects with clear error reporting.
+  
+  The final stage combines these ideas through JavaScript migration, type-contract testing, and a production-style typed API client. Compiler configuration, generics, modules, validation, asynchronous behavior, typed errors, and public API design must all work together.
+  
+  ## What you will be able to do 🛠️
+  
+  After completing the course, you should be able to enter an existing TypeScript project and understand not only what its types say, but also what guarantees they do and do not provide.
+  
+  You will be able to configure strict projects, diagnose type errors systematically, and refactor weakly typed code without replacing difficult cases with `any`. You will be able to model state transitions with discriminated unions, design generic APIs that preserve type information, and create reusable transformations without turning the codebase into an unreadable type puzzle.
+  
+  You will also be able to validate external input, map transport data into domain models, and represent failures explicitly. For library and platform work, you will understand how to publish declaration files, augment third-party modules carefully, and protect a stable public API with runtime and compile-time tests.
+  
+  Most importantly, you will be able to judge when TypeScript is providing real engineering value and when a type definition is only creating the appearance of safety.
+  
+  ## Who this course is for
+  
+  This course is intended for developers who already understand programming fundamentals and have worked with functions, objects, modules, asynchronous code, and basic software design.
+  
+  It is especially relevant for JavaScript developers preparing to adopt TypeScript, but experience in another modern language is also sufficient if you are comfortable reading JavaScript syntax. The material is suitable for intermediate developers, backend and full-stack engineers, library authors, and experienced programmers joining a TypeScript codebase.
+  
+  This is not an introduction to programming. It moves quickly into compiler behavior, advanced types, module systems, runtime validation, migration strategy, and API design.
+  
+  ## Start building your skills 🚀
+  
+  Make the switch with a clear understanding of what TypeScript can guarantee, where JavaScript still defines runtime behavior, and how strong types support better software design. Take each concept in a focused BiteCode lesson, apply it in code, and build the confidence to work in strict, production-grade TypeScript systems.
+tags:
+  - typescript
+technologyid: 2
+imagekey: null
+level: intermediate

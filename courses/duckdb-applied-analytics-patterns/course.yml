@@ -1,0 +1,20 @@
+sourceid: duckdb-applied-analytics-patterns
+name: DuckDB Applied Analytics Patterns
+description: Combine advanced query patterns into auditable BI-ready outputs.
+notificationtemplateid: 1
+targetaudience: Experienced SQL developers and BI professionals applying DuckDB to analytical work
+learninggoal: Design and validate compact analytical solutions for realistic reporting needs.
+avoid: Avoid DBA operations, backup and restore procedures, server installation, SQL tuning, infrastructure configuration, and large datasets.
+coursetype: classic
+ispublic: false
+shortermgoal: Complete six focused DuckDB practice lessons and produce one verified analytical result.
+longdescription: Combine advanced query patterns into auditable BI-ready outputs. This course is designed for SQL developers and BI professionals working with small, understandable datasets. It covers query and transformation skills, not database administration. Backups, infrastructure operations, server tuning, capacity planning, and large-scale performance engineering are intentionally out of scope.
+tags:
+  - database
+  - sql-developer
+  - bi
+  - duckdb
+  - catalog.database-duckdb
+technologyid: 15
+imagekey: null
+level: advanced

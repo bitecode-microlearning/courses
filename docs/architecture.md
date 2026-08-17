@@ -1,0 +1,13 @@
+# Architecture and synchronization contract
+
+GitHub is canonical for editable metadata and lesson briefs. D1 remains the runtime store. A sync run must fetch only the configured repository and branch, parse every changed entity, validate the complete snapshot, verify technology and notification-template foreign keys, and only then execute an atomic D1 batch.
+
+Courses resolve by `(repository, sourceid)` in `course_sources`; lessons resolve the same way in `lesson_sources`. Paths are metadata, so renames update mappings rather than insert entities. New entities insert into the existing tables and then create mappings. Updates assign every editable compatibility field, serialize tags/concepts as JSON/text as currently expected, and deliberately omit `courses.likes` and `courses.views`. Removed files set their mapping `active=0`; runtime rows remain to protect progress, notifications, subscriptions, and certificates. Legacy rows without mappings remain untouched.
+
+Each run records diagnostics in `content_sync_runs`. Failed validation never changes runtime content. The future authenticated admin endpoint should require an allowlisted repository/branch and a server-side secret; a webhook variant must additionally verify GitHub's signature before queuing the same sync operation.
+
+Contributor ingestion uses GitHub numeric IDs when available and case-insensitive usernames otherwise. Bot names come from `content_sync_settings`. Learner impact is the count of distinct users with completed/delivered lesson activity joined through contributions; the exact completion table must be selected in the application migration after confirming the production event semantics. Badge rules live in `config/badges.json`, not UI components. Founding Contributor and Course Maintainer remain explicit/manual awards.
+
+The initial catalog import does not create a contributor or any contribution records. After the repository is pushed, an administrator records that import commit in `content_sync_settings.contributionbaselinesha` (mirrored by `config/contribution-policy.json`). Contributor ingestion walks only commits descended from that baseline and excludes the baseline itself. An eligible post-baseline commit or merged pull request that changes `course.yml` or a lesson file creates contribution activity for its verified GitHub author. Reviews may create `review` activity without claiming authorship of the changed content. Bot identities remain excluded from public contributor statistics, badges, and rankings.
+
+The migration is intentionally shipped here but is not applied automatically. Copy it into the website's next `migrations-sitedb` migration only when the sync service and rollback procedure are ready for the same release.

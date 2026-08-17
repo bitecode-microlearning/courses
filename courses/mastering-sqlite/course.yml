@@ -1,0 +1,27 @@
+sourceid: mastering-sqlite
+name: Mastering SQLite
+description: Add reliable local persistence without a separate database server through short, practical, OneCompiler-compatible Python lessons.
+notificationtemplateid: 1
+targetaudience: Python developers who know basic syntax and want practical, production-focused fluency with everyday tools.
+learninggoal: Add reliable local persistence without a separate database server, choose appropriate patterns, and recognize important limitations.
+avoid: Avoid unnecessary complexity.
+coursetype: classic
+ispublic: true
+shortermgoal: Complete one useful SQLite workflow in a concise, runnable example today.
+longdescription: |
+  # Mastering SQLite
+  
+  Add reliable local persistence without a separate database server. Begin with a technique you can use immediately, then develop reliable daily workflows, error handling, testing judgment, and production-minded design.
+  
+  Every lesson is a focused 10–15 minute exercise with deterministic local data and a runnable main.py entrypoint. The course concludes with an integrated mini-project that uses only the packages available in OneCompiler.
+tags:
+  - python
+  - sqlite
+  - files-data-and-automation
+  - microlearning
+  - onecompiler
+  - "catalog:mastering-python-tools"
+  - "metadata:{\"slug\":\"mastering-sqlite\",\"durationWeeks\":3,\"estimatedLessonCount\":9,\"stage\":\"Files, Data, and Automation\",\"stageOrder\":2,\"dominantColor\":\"blue\",\"imageAlt\":\"Developer-focused illustration representing SQLite in the Mastering Python Tools collection.\"}"
+technologyid: 1
+imagekey: courses/18/00000000-0000-4000-8000-00000000000a.png
+level: beginner

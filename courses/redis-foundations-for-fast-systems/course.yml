@@ -1,0 +1,21 @@
+sourceid: redis-foundations-for-fast-systems
+name: Redis Foundations for Fast Systems
+description: Understand where Redis fits and use its core data structures to design fast, explicit application access paths.
+notificationtemplateid: 1
+targetaudience: Backend developers, solution architects, technical leads, and application developers designing responsive systems
+learninggoal: Explain Redis tradeoffs and use core commands, keys, data structures, expiration, indexes, and aggregates to model fast application reads and updates.
+avoid: Avoid presenting Redis as a universal primary database, hiding consistency tradeoffs, or drifting into installation, backup procedures, server tuning, infrastructure configuration, and vendor-only modules.
+coursetype: classic
+ispublic: true
+shortermgoal: Complete ten Redis foundation lessons and model one verified fast application data path.
+longdescription: Start with what Redis is, why in-memory data structures can make systems responsive, and where Redis belongs beside a durable source of truth. Build practical confidence with key design, strings, hashes, counters, sets, sorted sets, expiration, precomputed values, and explicit relationships. The emphasis is architectural intent and executable core Redis commands, not BI reporting or server administration.
+tags:
+  - redis
+  - architecture
+  - backend
+  - caching
+  - distributed-systems
+  - catalog.database-redis
+technologyid: 10
+imagekey: null
+level: beginner

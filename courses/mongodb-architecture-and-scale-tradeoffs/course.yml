@@ -1,0 +1,22 @@
+sourceid: mongodb-architecture-and-scale-tradeoffs
+name: MongoDB Architecture and Scale Tradeoffs
+description: Design resilient MongoDB systems by reasoning about replication, sharding, consistency, hotspots, events, and polyglot persistence.
+notificationtemplateid: 1
+targetaudience: Senior developers and architects responsible for production MongoDB workloads and database boundaries
+learninggoal: Evaluate and communicate the reliability, scaling, and consistency tradeoffs of a MongoDB architecture.
+avoid: Avoid DBA operations, backup and restore procedures, server installation, SQL tuning, infrastructure configuration, and large datasets.
+coursetype: classic
+ispublic: false
+shortermgoal: Complete eight architecture lessons and defend a production-ready MongoDB system design.
+longdescription: "MongoDB can scale flexible, aggregate-oriented workloads well, but scale does not remove the need for deliberate boundaries. This course examines workload fit, replica sets, read and write concerns, shard keys, hotspots, change streams, idempotency, migrations, and polyglot persistence. The goal is not to promote MongoDB everywhere; it is to design it responsibly where its document model creates a real advantage and retain relational systems where joins, constraints, or transactional breadth dominate."
+tags:
+  - database
+  - mongodb
+  - distributed-systems
+  - scalability
+  - resilience
+  - architecture
+  - catalog.database-mongodb
+technologyid: 6
+imagekey: null
+level: advanced

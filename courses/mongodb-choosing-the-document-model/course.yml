@@ -1,0 +1,21 @@
+sourceid: mongodb-choosing-the-document-model
+name: "MongoDB: Choosing the Document Model"
+description: Understand why MongoDB differs from relational databases, where document storage helps, and when SQL is still the better choice.
+notificationtemplateid: 1
+targetaudience: Application developers, architects, and SQL developers evaluating MongoDB for product systems
+learninggoal: Choose between document and relational models by comparing access patterns, relationships, consistency needs, and change frequency.
+avoid: Avoid DBA operations, backup and restore procedures, server installation, SQL tuning, infrastructure configuration, and large datasets.
+coursetype: classic
+ispublic: false
+shortermgoal: Complete eight lessons and defend a database choice for a realistic application.
+longdescription: MongoDB is not simply a relational database without tables. Its document model lets an application store related data together, evolve shapes gradually, and retrieve an aggregate in one read. Those strengths come with tradeoffs in joins, constraints, duplication, transactions, and reporting. This course builds a practical comparison with relational databases so you can recognize good MongoDB workloads, avoid forcing every problem into documents, and make an evidence-based technology choice.
+tags:
+  - database
+  - mongodb
+  - document-database
+  - data-modeling
+  - architecture
+  - catalog.database-mongodb
+technologyid: 6
+imagekey: null
+level: beginner

@@ -1,0 +1,34 @@
+---
+sourceid: learn-python-pandas-understanding-series-and-dataframes
+lessonname: Understanding Series and DataFrames
+position: 3
+level: beginner
+goal: Use Pandas to understand and apply understanding series and dataframes in a practical data-analysis task, then verify the result.
+contentdescription: Explain Understanding Series and DataFrames through a progressive workflow: introduce the purpose and core API, inspect the starting data, walk through the transformation, interpret the output, and finish with a small practice challenge. Highlight the behavior, trade-offs, and common mistakes appropriate to the beginner level.
+codedescription: "Always generate a runnable multi-file Python example with at least two files: main.py as the entrypoint and a separate data.csv containing a small, realistic business dataset in data.csv. In main.py, construct and compare a Series and DataFrame, then inspect their labels and shapes. Keep main.py concise and easy to review, read data.csv with a relative path, print a deterministic result, and include a short assertion or self-check. Return both files in the CodePractice files array; never embed the CSV data inside Python and never collapse the example to one file."
+concepts:
+  - Understanding Series and DataFrames
+  - pandas
+  - DataFrame
+  - data analysis
+  - CSV input
+  - multi-file Python
+  - reproducible results
+avoid: Avoid single-file examples, inline CSV strings, oversized datasets, absolute paths, network access, notebooks, hidden state, non-deterministic output, deprecated Pandas APIs, unexplained method chains, and unrelated libraries. Do not omit main.py or data.csv.
+---
+
+# Understanding Series and DataFrames
+
+> This repository stores the canonical lesson brief used by BiteCode to generate learner-facing lesson content.
+
+## Goal
+
+Use Pandas to understand and apply understanding series and dataframes in a practical data-analysis task, then verify the result.
+
+## Content direction
+
+Explain Understanding Series and DataFrames through a progressive workflow: introduce the purpose and core API, inspect the starting data, walk through the transformation, interpret the output, and finish with a small practice challenge. Highlight the behavior, trade-offs, and common mistakes appropriate to the beginner level.
+
+## Code direction
+
+Always generate a runnable multi-file Python example with at least two files: main.py as the entrypoint and a separate data.csv containing a small, realistic business dataset in data.csv. In main.py, construct and compare a Series and DataFrame, then inspect their labels and shapes. Keep main.py concise and easy to review, read data.csv with a relative path, print a deterministic result, and include a short assertion or self-check. Return both files in the CodePractice files array; never embed the CSV data inside Python and never collapse the example to one file.

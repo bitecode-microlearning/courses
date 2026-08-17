@@ -1,0 +1,17 @@
+sourceid: vibelearning
+name: VibeLearning
+description: Dynamic course based on the actual demand of the learner
+notificationtemplateid: 1
+targetaudience: "Developers, technical professionals, and AI-assisted builders who already have basic programming knowledge and use vibe coding or AI tools to build, debug, or explore software faster. The course is designed for learners who are not complete beginners, but often need quick, focused explanations to fill knowledge gaps while working on real problems."
+learninggoal: "Help learners quickly understand and reinforce the specific programming concepts they currently need, so they can continue building with more confidence. The goal is not to follow a strict linear curriculum, but to provide practical, ADHD-friendly knowledge patching: short, focused lessons that connect directly to the learner’s current coding problem, confusion, or curiosity."
+avoid: Avoid drifting too far away from programming, software development, debugging, architecture, developer tools, and technical problem solving. Do not generate lessons about unrelated general productivity, motivation, business, lifestyle, or self-help topics unless they are clearly connected to software development. Exclude any harmful, malicious, abusive, deceptive, or illegal intent, including malware, credential theft, exploitation, evasion, unauthorized access, or instructions that could enable harm.
+coursetype: vibelearning
+ispublic: false
+shortermgoal: "Help learners quickly understand and reinforce the specific programming concepts they currently need, so they can continue building with more confidence. The goal is not to follow a strict linear curriculum, but to provide practical, ADHD-friendly knowledge patching: short, focused lessons that connect directly to the learner’s current coding problem, confusion, or curiosity."
+longdescription: Dynamic course based on the actual demand of the learner
+tags:
+  - personalized learning
+  - ai
+technologyid: 1
+imagekey: null
+level: beginner

@@ -1,0 +1,187 @@
+sourceid: start-coding-with-python
+name: Start Coding with Python
+description: "Learn Python from scratch through short, hands-on lessons. No programming experience needed—just curiosity and 10 minutes a day."
+notificationtemplateid: 1
+targetaudience: Complete beginners with no prior programming experience who want to learn Python from scratch. Perfect for students, career changers, professionals looking to automate tasks, and anyone curious about coding.
+learninggoal: Build a strong foundation in Python programming by learning core programming concepts, developing problem-solving skills, and gaining the confidence to write, read, and debug your own programs.
+avoid: Avoid unnecessary complexity.
+coursetype: classic
+ispublic: true
+shortermgoal: Learn the fundamentals of Python through interactive, bite-sized lessons and complete your first real-world console applications using variables, conditions, loops, lists, and simple algorithms.
+longdescription: |
+  # 🐍 Python for Complete Beginners
+  
+  ## 👋 Welcome!
+  
+  Welcome to your first programming course!
+  
+  This course is designed for people who have **never written a single
+  line of code**. You don't need any previous programming experience or
+  technical background---just curiosity and a willingness to learn.
+  
+  Instead of overwhelming you with theory, you'll learn through **short,
+  interactive lessons**, practical examples, and hands-on coding
+  exercises. Every lesson focuses on a single concept, making it easy to
+  build confidence one step at a time.
+  
+  🎯 **By the end of this course, you'll understand not only how to write
+  Python code, but also how to think like a programmer.**
+  
+  # 🚀 What You'll Learn
+  
+  Throughout this course, you'll build a solid foundation in programming
+  by learning how to:
+  
+  -   💻 Understand how computer programs work
+  -   🐍 Write and run your first Python programs
+  -   📦 Store information using variables
+  -   🔢 Work with numbers and text
+  -   ⌨️ Receive input from users
+  -   🤔 Make decisions using conditions (`if`, `elif`, `else`)
+  -   🔄 Repeat tasks efficiently with loops (`for` and `while`)
+  -   📋 Store multiple values using lists
+  -   🧩 Solve simple programming problems using algorithms
+  -   🐞 Read, understand, and debug existing code
+  -   🛠️ Build complete console applications from scratch
+  
+  You'll also develop the problem-solving skills that every programmer
+  uses every day.
+  
+  # 🤖 How You'll Learn
+  
+  This isn't a traditional video course.
+  
+  Instead, you'll learn through an **AI-guided interactive experience**
+  that adapts to your progress.
+  
+  Every lesson includes:
+  
+  -   📖 A clear explanation of one new concept
+  -   🌍 Real-world examples and analogies
+  -   🤝 Interactive conversations with your AI learning companion
+  -   👀 Code reading exercises
+  -   💡 Hands-on coding challenges
+  -   ⚡ Instant feedback and personalized guidance
+  -   ✅ Short quizzes to reinforce your understanding
+  
+  The focus is on **learning by doing**, not memorizing.
+  
+  # 📚 Course Structure
+  
+  ## 🟢 Module 1 --- Programming Fundamentals
+  
+  Learn how computers execute instructions and write your very first
+  Python programs.
+  
+  Topics include:
+  
+  -   What is a program?
+  -   Running Python
+  -   `print()`
+  -   Variables
+  -   Numbers
+  -   Strings
+  -   User input
+  
+  ## 🟡 Module 2 --- Making Decisions
+  
+  Teach your programs to make decisions.
+  
+  Topics include:
+  
+  -   Boolean values
+  -   Comparison operators
+  -   `if`
+  -   `else`
+  -   `elif`
+  -   Logical operators (`and`, `or`, `not`)
+  
+  🎮 You'll build projects like age checkers, password validation, and
+  simple quizzes.
+  
+  ## 🔵 Module 3 --- Repeating Tasks
+  
+  Discover how to automate repetitive work.
+  
+  Topics include:
+  
+  -   `for` loops
+  -   `while` loops
+  -   `range()`
+  -   `break`
+  -   `continue`
+  
+  🎯 You'll create countdown timers and simple guessing games.
+  
+  ## 🟣 Module 4 --- Working with Collections
+  
+  Learn how to organize and process multiple pieces of information.
+  
+  Topics include:
+  
+  -   Lists
+  -   Accessing elements
+  -   Updating values
+  -   Looping through lists
+  -   Searching data
+  
+  ## 🟠 Module 5 --- Problem Solving
+  
+  Start thinking like a real developer.
+  
+  You'll practice common programming patterns such as:
+  
+  -   ➕ Summing values
+  -   🔢 Counting items
+  -   📈 Finding minimum and maximum values
+  -   📊 Calculating averages
+  -   🔍 Searching through data
+  -   📝 Processing text
+  
+  ## 🔴 Module 6 --- Debugging & Final Project
+  
+  Every programmer makes mistakes---the important part is learning how to
+  fix them.
+  
+  You'll learn how to:
+  
+  -   🐞 Read error messages
+  -   🔧 Fix common programming mistakes
+  -   🧹 Improve code readability
+  -   🚀 Build a complete Python application from scratch
+  
+  # 🏆 By the End of This Course
+  
+  You'll be able to:
+  
+  -   ✅ Write your own Python programs with confidence
+  -   ✅ Read and understand beginner-friendly Python code
+  -   ✅ Modify and improve existing programs
+  -   ✅ Solve simple programming problems independently
+  -   ✅ Build small console applications
+  -   ✅ Continue learning more advanced Python topics with a strong
+      foundation
+  
+  Most importantly, you'll gain the confidence to keep learning and
+  building.
+  
+  # 💙 Is This Course Right for You?
+  
+  This course is perfect if you:
+  
+  -   🌱 Have never programmed before
+  -   💼 Want to start a career in software development
+  -   🤖 Are curious about coding and AI
+  -   ⚙️ Want to automate everyday tasks
+  -   ☕ Prefer short, bite-sized lessons
+  -   🧠 Learn best by practicing
+  
+  **No previous programming knowledge is required.**
+  
+  ✨ Just bring your curiosity---we'll take care of the rest.
+tags:
+  - python
+  - beginner
+technologyid: 1
+imagekey: null
+level: beginner

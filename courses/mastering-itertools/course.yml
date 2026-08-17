@@ -1,0 +1,27 @@
+sourceid: mastering-itertools
+name: Mastering itertools
+description: Compose lazy iteration pipelines that stay readable and efficient through short, practical, OneCompiler-compatible Python lessons.
+notificationtemplateid: 1
+targetaudience: Python developers who know basic syntax and want practical, production-focused fluency with everyday tools.
+learninggoal: Compose lazy iteration pipelines that stay readable and efficient, choose appropriate patterns, and recognize important limitations.
+avoid: Avoid unnecessary complexity.
+coursetype: classic
+ispublic: true
+shortermgoal: Complete one useful itertools workflow in a concise, runnable example today.
+longdescription: |
+  # Mastering itertools
+  
+  Compose lazy iteration pipelines that stay readable and efficient. Begin with a technique you can use immediately, then develop reliable daily workflows, error handling, testing judgment, and production-minded design.
+  
+  Every lesson is a focused 10–15 minute exercise with deterministic local data and a runnable main.py entrypoint. The course concludes with an integrated mini-project that uses only the packages available in OneCompiler.
+tags:
+  - python
+  - itertools
+  - everyday-python-foundations
+  - microlearning
+  - onecompiler
+  - "catalog:mastering-python-tools"
+  - "metadata:{\"slug\":\"mastering-itertools\",\"durationWeeks\":2,\"estimatedLessonCount\":6,\"stage\":\"Everyday Python Foundations\",\"stageOrder\":1,\"dominantColor\":\"green\",\"imageAlt\":\"Developer-focused illustration representing itertools in the Mastering Python Tools collection.\"}"
+technologyid: 1
+imagekey: courses/16/00000000-0000-4000-8000-000000000008.png
+level: beginner

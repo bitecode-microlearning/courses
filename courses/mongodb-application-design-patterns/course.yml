@@ -1,0 +1,22 @@
+sourceid: mongodb-application-design-patterns
+name: MongoDB Application Design Patterns
+description: Turn application access patterns into durable document models, indexes, consistency boundaries, and evolution strategies.
+notificationtemplateid: 1
+targetaudience: Developers and architects who understand MongoDB basics and need to design maintainable application data
+learninggoal: Design MongoDB-backed features around aggregates, query shapes, atomic boundaries, schema evolution, and operational tradeoffs.
+avoid: Avoid DBA operations, backup and restore procedures, server installation, SQL tuning, infrastructure configuration, and large datasets.
+coursetype: classic
+ispublic: false
+shortermgoal: Complete eight design exercises and produce a reviewable MongoDB application model.
+longdescription: Effective MongoDB design begins with how the application reads and changes data, not with translating normalized tables into collections. This course covers embedding and referencing, schema validation and evolution, indexes, atomic document updates, multi-document transactions, aggregation, and integration with relational systems. Each lesson explains why a pattern fits, what it costs, and what evidence would justify a different design.
+tags:
+  - database
+  - mongodb
+  - application-design
+  - data-modeling
+  - consistency
+  - architecture
+  - catalog.database-mongodb
+technologyid: 6
+imagekey: null
+level: intermediate

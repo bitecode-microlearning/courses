@@ -1,0 +1,26 @@
+sourceid: programming-principles
+name: Programming Principles
+description: "Learn the core principles behind clean, maintainable software—from abstraction and SOLID to testing, refactoring, complexity, and functional design."
+notificationtemplateid: 1
+targetaudience: Beginner-to-advanced developers who know basic programming syntax and want to write cleaner, more reliable, and easier-to-change software.
+learninggoal: Build practical design judgment: recognize code-quality problems, select an appropriate programming principle, and refactor code while explaining the trade-offs.
+avoid: Avoid unnecessary complexity.
+coursetype: classic
+ispublic: true
+shortermgoal: Apply one programming principle in a small practical Python example.
+longdescription: |
+  Great software is shaped by decisions that keep code understandable as it grows. Programming Principles builds those decision-making skills from the ground up. You will move from foundational ideas such as abstraction, modularity, DRY, naming, and error handling into SOLID design, composition, dependency injection, design patterns, testing, refactoring, complexity, functional programming, and backward compatibility.
+  
+  Each lesson combines a clear explanation with a focused Python example. You will inspect code that is difficult to change, identify the principle at stake, improve the design step by step, and reflect on the trade-offs. The goal is not to memorize slogans. It is to learn when a principle helps, when it can be over-applied, and how to make pragmatic choices that produce readable, testable, adaptable software.
+  
+  By the end of the course, you will have a practical vocabulary for discussing design quality and a repeatable approach for turning fragile code into maintainable systems.
+tags:
+  - programming
+  - clean code
+  - software design
+  - solid
+  - refactoring
+  - best practices
+technologyid: 1
+imagekey: courses/1/aaa080bb-a697-4900-896a-a59f68ba1496.png
+level: intermediate

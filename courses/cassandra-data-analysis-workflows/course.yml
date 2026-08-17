@@ -1,0 +1,20 @@
+sourceid: cassandra-data-analysis-workflows
+name: Cassandra Data Analysis Workflows
+description: Turn business questions into reusable transformations and analytical results.
+notificationtemplateid: 1
+targetaudience: SQL developers and BI professionals with basic Cassandra query experience
+learninggoal: Create maintainable analysis workflows using the database's practical query features.
+avoid: Avoid DBA operations, backup and restore procedures, server installation, SQL tuning, infrastructure configuration, and large datasets.
+coursetype: classic
+ispublic: false
+shortermgoal: Complete six focused Cassandra practice lessons and produce one verified analytical result.
+longdescription: Turn business questions into reusable transformations and analytical results. This course is designed for SQL developers and BI professionals working with small, understandable datasets. It covers query and transformation skills, not database administration. Backups, infrastructure operations, server tuning, capacity planning, and large-scale performance engineering are intentionally out of scope.
+tags:
+  - database
+  - sql-developer
+  - bi
+  - cassandra
+  - catalog.database-cassandra
+technologyid: 13
+imagekey: null
+level: intermediate

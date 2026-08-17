@@ -1,0 +1,27 @@
+sourceid: mastering-pathlib
+name: Mastering pathlib
+description: Replace fragile path strings with safe, expressive filesystem workflows through short, practical, OneCompiler-compatible Python lessons.
+notificationtemplateid: 1
+targetaudience: Python developers who know basic syntax and want practical, production-focused fluency with everyday tools.
+learninggoal: Replace fragile path strings with safe, expressive filesystem workflows, choose appropriate patterns, and recognize important limitations.
+avoid: Avoid unnecessary complexity.
+coursetype: classic
+ispublic: true
+shortermgoal: Complete one useful pathlib workflow in a concise, runnable example today.
+longdescription: |
+  # Mastering pathlib
+  
+  Replace fragile path strings with safe, expressive filesystem workflows. Begin with a technique you can use immediately, then develop reliable daily workflows, error handling, testing judgment, and production-minded design.
+  
+  Every lesson is a focused 10–15 minute exercise with deterministic local data and a runnable main.py entrypoint. The course concludes with an integrated mini-project that uses only the packages available in OneCompiler.
+tags:
+  - python
+  - pathlib
+  - everyday-python-foundations
+  - microlearning
+  - onecompiler
+  - "catalog:mastering-python-tools"
+  - "metadata:{\"slug\":\"mastering-pathlib\",\"durationWeeks\":2,\"estimatedLessonCount\":6,\"stage\":\"Everyday Python Foundations\",\"stageOrder\":1,\"dominantColor\":\"green\",\"imageAlt\":\"Developer-focused illustration representing pathlib in the Mastering Python Tools collection.\"}"
+technologyid: 1
+imagekey: courses/10/00000000-0000-4000-8000-000000000002.png
+level: beginner

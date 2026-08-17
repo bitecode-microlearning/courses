@@ -1,0 +1,41 @@
+sourceid: codecore-developer-basics
+name: "CodeCore | Developer Basics"
+description: "A year-long, coffee-break knowledge refresh for developers, using Python examples to strengthen essential programming skills ☕+ 💻"
+notificationtemplateid: 1
+targetaudience: Junior to mid-level developers refreshing core concepts and preparing for interviews.
+learninggoal: Refresh core software development fundamentals and build interview-ready technical confidence.
+avoid: "Avoid absolute beginner content, lengthy theory, framework-specific details, and overly simplified examples that do not respect the learner’s existing coding experience."
+coursetype: classic
+ispublic: true
+shortermgoal: Refresh core software development fundamentals and build interview-ready technical confidence.
+longdescription: |
+  # CodeCore | Developer Basics
+  
+  **One year of continuous learning for developers — built to fit into your coffee break. ☕**
+  
+  CodeCore | Developer Basics is a **52-week knowledge refresh program** covering the essential concepts every software developer should understand. The lessons use **Python-based examples**, but the course is not focused on Python itself. Its goal is to strengthen general programming knowledge that can be applied across languages, technologies, and projects.
+  
+  With **three short microlearning lessons each week**, CodeCore helps developers continuously revisit important fundamentals without committing to long training sessions.
+  
+  ## Main Topics
+  
+  - Reading, understanding, and debugging existing code
+  - Data structures, algorithms, complexity, searching, and sorting
+  - Clean code, software design, object-oriented principles, and composition
+  - Files, data processing, validation, and error handling
+  - Testing, logging, APIs, HTTP, and resilient integrations
+  - Memory usage, performance, concurrency, and asynchronous programming
+  - Practical engineering decisions and production-ready development
+  
+  ## Why It Matters
+  
+  Developers often learn these concepts once, then rarely have time to revisit them. CodeCore keeps essential knowledge fresh, fills hidden gaps, and supports better decisions during coding, debugging, reviews, interviews, and architecture discussions.
+  
+  It is a practical learning habit for developers who want to keep improving — **one small bite at a time.**
+tags:
+  - developer fundamentals
+  - programming
+  - career
+technologyid: 1
+imagekey: null
+level: intermediate
