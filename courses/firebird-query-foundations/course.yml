@@ -1,19 +1,26 @@
 sourceid: firebird-query-foundations
 name: Firebird Query Foundations
-description: Build confidence reading, filtering, grouping, and joining small datasets.
+description: Learn foundational Firebird queries while comparing its strengths, tradeoffs, and SQL dialect with PostgreSQL, MySQL/MariaDB, SQLite, and SQL Server.
 notificationtemplateid: 1
 targetaudience: SQL developers, BI analysts, report authors, and application developers beginning with the database
-learninggoal: Write clear foundational queries and verify results against a compact business dataset.
-avoid: Avoid DBA operations, backup and restore procedures, server installation, SQL tuning, infrastructure configuration, and large datasets.
+learninggoal: Write and verify foundational Firebird queries, recognize important portability differences, and explain when Firebird is a better or worse fit than another relational DBMS.
+avoid: Avoid vendor advocacy, simplistic performance rankings, DBA operations, backup and restore procedures, server installation, SQL tuning, infrastructure configuration, and large datasets.
 coursetype: classic
 ispublic: false
-shortermgoal: Complete six focused Firebird practice lessons and produce one verified analytical result.
-longdescription: Build confidence reading, filtering, grouping, and joining small datasets. This course is designed for SQL developers and BI professionals working with small, understandable datasets. It covers query and transformation skills, not database administration. Backups, infrastructure operations, server tuning, capacity planning, and large-scale performance engineering are intentionally out of scope.
+shortermgoal: Complete seven focused Firebird lessons, produce one verified analytical result, and make a reasoned DBMS choice for a small application scenario.
+longdescription: |
+  Build confidence reading, filtering, grouping, and joining small Firebird datasets while learning where Firebird fits in the relational database landscape.
+
+  Each lesson distinguishes portable SQL from Firebird-specific syntax and briefly compares the same concern with PostgreSQL, MySQL/MariaDB, SQLite, or SQL Server. The final lesson turns those observations into a practical decision: Firebird can be attractive for compact, self-managed applications that need a full relational engine and flexible embedded or server deployment, while a larger ecosystem, a managed-cloud-first platform, organization-wide tooling, or a truly serverless local database may favor another DBMS.
+
+  Comparisons are contextual rather than absolute. The course does not claim that one database is universally faster or better. It focuses on application fit, portability, operational shape, ecosystem, and developer workflow for small, understandable datasets. DBA operations, infrastructure tuning, capacity planning, and large-scale performance engineering remain out of scope.
 tags:
   - database
   - sql-developer
   - bi
   - firebird
+  - database-comparison
+  - sql-portability
   - catalog.database-firebird
 technologyid: 17
 imagekey: null
